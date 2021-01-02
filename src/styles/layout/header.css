@@ -1,4 +1,175 @@
-header {
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 11em;
+  /*BLOCO 01*/
+  /*BLOCO 02*/
+  /*BLOCO 03*/
+}
+
+.header__top-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 100%;
+  height: 20%;
+  border-bottom: 1px solid #cecbcb;
+}
+
+.header__contact {
+  display: flex;
+}
+
+.header__contact-item {
+  font-size: 0.75em;
+  font-weight: bold;
+  padding-left: 7em;
+  margin: 0.625em 1.562em 0.625em 0;
+}
+
+.header__contact-item :last-child {
+  font-size: 0.875em;
+  color: #01bb00;
+}
+
+.header__meus-pedidos {
+  margin-right: 10%;
+}
+
+.header__meus-pedidos :last-child {
+  font-size: 0.75em;
+  margin-left: 0.625em;
+  font-weight: bold;
+}
+
+.header__meus-pedidos :last-child b {
+  color: #01bb00;
+  font-size: 0.8125em;
+  margin: 0;
+}
+
+.header__center {
+  display: flex;
+  align-items: center;
+  width: 92.5%;
+  justify-content: space-between;
+  padding: 2em 2em 2em 5em;
+}
+
+.header__center img {
+  width: 12.5em;
+  height: unset;
+}
+
+.header__center-buttons {
+  width: 46%;
+  height: 4em;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header__search {
+  display: flex;
+  width: 90%;
+  position: relative;
+  height: 100%;
+}
+
+.header__search input {
   width: 100%;
-  background: #01bb00;
+  margin: auto 3.75em;
+  height: 3.75em;
+  padding-left: 1.25em;
+  border: 1px solid #dddddd;
+}
+
+.header__search input::placeholder {
+  font-size: 0.875em;
+  font-weight: bold;
+  color: black;
+}
+
+.header__search :last-child {
+  cursor: pointer;
+  position: absolute;
+  right: 5em;
+  top: 1.25em;
+  width: 3%;
+}
+
+.header__login {
+  display: flex;
+  font-size: 0.8125em;
+  font-weight: bold;
+}
+
+.header__login a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header__login a :first-child {
+  width: 10%;
+  fill: #01bb00;
+  margin-right: 0.625em;
+}
+
+.header__carrinho {
+  display: flex;
+  font-size: 0.6875em;
+  font-weight: bold;
+  width: 70%;
+}
+
+.header__carrinho a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #dadada;
+}
+
+.header__carrinho a :first-child {
+  width: 25%;
+  fill: #01bb00;
+  margin-right: 10px;
+}
+
+.header__bottom-bar {
+  width: 100%;
+  height: 35%;
+}
+
+.header__categorias {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2f2f2;
+  height: 4em;
+}
+
+.header__categorias-item {
+  display: flex;
+  align-items: center;
+  height: 100%;
+}
+
+.header__categorias-item a {
+  display: flex;
+  align-items: center;
+  height: 100%;
+  font-size: 0.875em;
+  font-weight: bold;
+  color: #5e5e5e;
+  border-right: 1px solid #d3d3d3;
+  padding: 0 1.6875em;
+  transition: background-color 250ms;
+}
+
+.header__categorias-item a:hover {
+  background-color: #d3d3d3;
 }
