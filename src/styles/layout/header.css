@@ -112,12 +112,6 @@
   align-items: center;
 }
 
-.header__login a :first-child {
-  width: 10%;
-  fill: #01bb00;
-  margin-right: 0.625em;
-}
-
 .header__carrinho {
   display: flex;
   font-size: 0.6875em;

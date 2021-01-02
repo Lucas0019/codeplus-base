@@ -105,11 +105,8 @@
       display: flex;
       justify-content: center;
       align-items: center;
-      & :first-child {
-        width: 10%;
-        fill: #01bb00;
-        margin-right: 0.625em;
-      }
+
+      @include svg($color: #01bb00, $margin: 0.625em, $width: 10% )
     }
   }
 
