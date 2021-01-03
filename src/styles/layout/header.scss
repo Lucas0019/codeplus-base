@@ -1,3 +1,9 @@
+//Teste 
+
+//header {
+//  background: tomato;
+//}
+
 .header {
   display: flex;
   flex-direction: column;
@@ -14,6 +20,7 @@
     max-width: 100%;
     height: 20%;
     border-bottom: 1px solid rgb(206, 203, 203);
+    
   }
 
   &__contact {
@@ -106,7 +113,7 @@
       justify-content: center;
       align-items: center;
 
-      @include svg($color: #01bb00, $margin: 0.625em, $width: 10% )
+      @include Svg($color: #01bb00, $margin: 0.625em, $width: 10% )
     }
   }
 
