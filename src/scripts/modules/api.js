@@ -10,4 +10,4 @@ const api = (config, callback) => {
     xhr.send(config.data);
 }
 
-export default api
+module.exports = api

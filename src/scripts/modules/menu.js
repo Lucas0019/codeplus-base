@@ -1,14 +1,14 @@
 //Modulo de criação de menus
 const api = require('./api')
 
-const menu = (tree) => {
+const menu = (Object) => {
     const config = {
         method: 'GET',
         url: `/api/catalog_system/pub/category/tree/${Object.tree}`
     }
 
-    const callbackMenu = (data) => {
-
+    const callbackMenu = data => {
+        console.log(data)
     }
 
     api(config, callbackMenu)

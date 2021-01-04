@@ -2,7 +2,7 @@ const menu = require('../modules/menu')
 
 const Default = {
     init: function () {
-        //console.log('Olha o Coffe ☕')
+        Default.menuInit()
     },
 
     menuInit: () => {

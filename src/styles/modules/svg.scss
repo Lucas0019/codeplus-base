@@ -1,4 +1,4 @@
-@mixin Svg($color: #000, $width: 1.875em, $height: 1.875em, $margin: 0) {
+@mixin svgTool($color: #000, $width: 1.875em, $height: 1.875em, $margin: 0) {
     & svg {
         width: $width;
         height: $height;

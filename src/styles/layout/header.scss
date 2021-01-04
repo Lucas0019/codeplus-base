@@ -1,9 +1,4 @@
 //Teste 
-
-//header {
-//  background: tomato;
-//}
-
 .header {
   display: flex;
   flex-direction: column;
@@ -113,7 +108,7 @@
       justify-content: center;
       align-items: center;
 
-      @include Svg($color: #01bb00, $margin: 0.625em, $width: 10% )
+      @include svgTool($color: #01bb00, $margin: 0.625em, $width: 10% );
     }
   }
 
